@@ -1,7 +1,7 @@
 # 🏠 Yeti Homes Estate Pvt. Ltd.
 
 Official website for **Yeti Homes Estate Pvt. Ltd.**, a professional real estate company based in **Kathmandu, Nepal**.  
-This website introduces the company’s services, office location, and contact options — built with clean, responsive HTML and CSS.
+This website introduces the company’s services, office location, and contact options — built with clean, responsive HTML, CSS and JavaScript.
 
 ---
 
@@ -26,7 +26,8 @@ The website offers easy navigation, detailed information about services, and qui
 ## 🛠️ Technologies Used
 
 - **HTML5** — For structure  
-- **CSS3** — For styling and responsive design  
+- **CSS3** — For styling and responsive design
+- **JavaScript** 
 - **Google Maps Embed API** — For office location map  
 - **Markdown (.md)** — For project documentation  
 
