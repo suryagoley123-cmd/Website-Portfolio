@@ -3,36 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="icon" href="Yeti Logo-02.svg">
   <title>Yeti Homes Estate Pvt. Ltd.</title>
   <meta name="description" content="Official website for Yeti Homes Estate Pvt. Ltd. - Premium residential & commercial real estate in Nepal." />
-  <style>
-    :root{--accent:#7F1416;--muted:#666}
-    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.5;margin:0;color:#222}
-    header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;border-bottom:1px solid #eee}
-    .brand{display:flex;align-items:center;gap:12px}
-    .brand img{width:64px;height:64px;object-fit:cover;border-radius:12px;border:2px solid rgba(0,0,0,0.06)}
-    nav a{margin-left:16px;text-decoration:none;color:var(--muted);font-weight:600}
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;padding:44px 28px;align-items:center}
-    .hero h1{font-size:32px;margin:0 0 12px}
-    .hero p{margin:0 0 18px;color:var(--muted)}
-    .cta{display:inline-block;padding:12px 18px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
-    .cards{display:flex;gap:16px;padding:0 28px 28px}
-    .card{flex:1;padding:18px;border-radius:12px;border:1px solid #eee;background:#fff}
-    footer{padding:24px 28px;border-top:1px solid #eee;margin-top:28px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
-    .social a{margin-right:10px;text-decoration:none;color:var(--muted);font-weight:600}
-    .map-wrapper iframe{width:100%;height:320px;border-radius:12px;border:1px solid #ddd}
-    @media (max-width:900px){.hero{grid-template-columns:1fr;padding:24px}.brand img{width:56px;height:56px}.hero h1{font-size:26px}}
-  </style>
+  <link rel="icon" href="Yeti Logo-02.svg">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <div class="brand">
-      <!-- Using their Facebook profile image as the site logo. Replace the `src` value below if you prefer another image. -->
-      <img src="D:\Yeti Homes Estate\Yeti Logo.jpg" />
+      <img src="Yeti Logo.jpg" alt="Yeti Homes Estate Logo">
       <div>
-        <div style="font-weight:800">Yeti Homes Estate Pvt. Ltd.</div>
-        <div style="font-size:13px;color:var(--muted)">Real estate — Kathmandu</div>
+        <h1>Yeti Homes Estate Pvt. Ltd.</h1>
+        <p>Real estate — Kathmandu</p>
       </div>
     </div>
     <nav>
@@ -43,76 +26,65 @@
   </header>
 
   <main>
-
     <section class="hero">
       <div>
-        <h1>Welcome to Yeti Homes Estate</h1>
-        <p>Property buying, selling and property management services based in Kathmandu, Bhaktapur & Lalitpur. Browse listings, contact our agents, or visit our office. We specialize in residential and commercial properties across Kathmandu Valley and beyond. Expert guidance, transparent processes, and tailored financing support.</p>
-        <a class="cta" href="#contact">Get in touch</a>
+        <h2>Welcome to Yeti Homes Estate</h2>
+        <p>Property buying, selling and management services across Kathmandu, Bhaktapur & Lalitpur. We offer expert guidance, transparent processes, and tailored financing support.</p>
+        <a class="cta" href="#contact">Get in Touch</a>
       </div>
-      <div>
-        <div class="card" style="box-shadow:0 6px 20px rgba(0,0,0,0.04);">
-          <h3 style="margin-top:0">For Office Location</h3>
-          <p style="margin:6px 0 12px;color:var(--muted)">Visit our office in Kathmandu for consultations and site visits.</p>
-          <!-- Embedded map uses latitude/longitude for the location provided. -->
-          <div class="map-wrapper">
-            <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=27.7193774,85.350369&z=17&output=embed" allowfullscreen></iframe>
-          </div>
+      <div class="card">
+        <h3>Our Office Location</h3>
+        <p>Visit our office in Kathmandu for consultations and site visits.</p>
+        <div class="map-wrapper">
+          <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=27.7193774,85.350369&z=17&output=embed" allowfullscreen></iframe>
         </div>
       </div>
     </section>
 
-    <section id="about" style="padding:22px 28px">
+    <section id="about" class="section">
       <h2>About Us</h2>
-      <p style="color:var(--muted);max-width:800px">Yeti Homes Estate helps clients find residential and commercial property across Kathmandu, Bhaktapur & Lalitpur. We provide end-to-end support from viewing to documentation.</p>
+      <p>Yeti Homes Estate helps clients find residential and commercial properties across Kathmandu Valley. We provide end-to-end support from property viewing to documentation.</p>
     </section>
 
-    <section id="services" style="padding:0 28px">
+    <section id="services" class="section">
+      <h2>Our Services</h2>
       <div class="cards">
         <div class="card">
           <h4>Residential Sales</h4>
-          <p style="color:var(--muted)">Buying and selling homes with local market expertise.</p>
+          <p>Buying and selling homes with local market expertise.</p>
         </div>
         <div class="card">
           <h4>Commercial Leasing</h4>
-          <p style="color:var(--muted)">Office and retail leasing services for businesses.</p>
+          <p>Office and retail leasing services for businesses.</p>
         </div>
         <div class="card">
           <h4>Property Management</h4>
-          <p style="color:var(--muted)">Manage tenants, maintenance and documentation.</p>
+          <p>Tenant management, maintenance, and documentation.</p>
         </div>
       </div>
     </section>
 
-    <section id="contact" style="padding:22px 28px 80px">
+    <section id="contact" class="section">
       <h2>Contact</h2>
-      <p style="color:var(--muted)">Connect with us on social media or visit our office.</p>
-      <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
-        <div class="social">
-          <a href="https://www.facebook.com/profile.php?id=61576030889533" target="_blank" rel="noopener">Facebook</a>
-          <a href="https://www.instagram.com/yetihomesestate/" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://www.tiktok.com/@yetihomesestate" target="_blank" rel="noopener">TikTok</a>
-	  <a href="https://www.youtube.com/@YetiHomesEstate" target="_blank" rel="noopener">YouTube</a>
-        </div>
+      <p>Connect with us on social media or visit our office.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=61576030889533" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/yetihomesestate/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@yetihomesestate" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.youtube.com/@YetiHomesEstate" target="_blank" rel="noopener">YouTube</a>
       </div>
 
-      <form style="margin-top:18px;max-width:560px;display:grid;gap:10px">
-        <input placeholder="Your name" style="padding:12px;border-radius:8px;border:1px solid #ddd" />
-        <input placeholder="Email" style="padding:12px;border-radius:8px;border:1px solid #ddd" />
-        <textarea placeholder="Message" rows="4" style="padding:12px;border-radius:8px;border:1px solid #ddd"></textarea>
-        <button type="submit" class="cta" style="border:none;cursor:pointer">Send message</button>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="4" required></textarea>
+        <button type="submit" class="cta">Send Message</button>
       </form>
     </section>
-
   </main>
 
   <footer>
     <div>© Yeti Homes Estate Pvt. Ltd.</div>
-    <div style="text-align:right">
-      
-    </div>
   </footer>
-
-
- </body>
+</body>
 </html>
